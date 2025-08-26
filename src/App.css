@@ -1,0 +1,13 @@
+.title{
+  color: green;
+  text-align: center;
+  font-size: 30px;
+}
+
+.text-green-500{
+  color: green;
+}
+
+.text-gray-500{
+  color: gray;
+}
