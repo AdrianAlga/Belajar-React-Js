@@ -1,4 +1,8 @@
 function handleChange(e) {
   console.log(e.target.value);
 }
-export default handleChange;
+
+function EventObject1() {
+  return <input type="text" onChange={handleChange} />;
+}
+export default EventObject1;

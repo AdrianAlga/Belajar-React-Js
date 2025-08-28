@@ -8,7 +8,10 @@ import UserRole from "./pages/Conditional/UserRole";
 import List from "./pages/List";
 import Counter from "./pages/PureComponent/PureComponent";
 import Event from "./pages/EventHandler/Event";
-import handleChange from "./pages/EventHandler/EventObject1";
+import EventObject1 from "./pages/EventHandler/EventObject1";
+import EventObject2 from "./pages/EventHandler/EventObject2";
+import EventObject3 from "./pages/EventHandler/EventObject3";
+import CounterHook from "./pages/HookState/Counter";
 
 function App() {
   const name = "Angga";
@@ -53,7 +56,12 @@ function App() {
 
       <Event />
 
-      {/* <input type="text" onChange={handleChange} /> */}
+      <EventObject1 />
+      <EventObject2 />
+      <EventObject3 />
+
+      <CounterHook />
+      <CounterHook />
     </>
   );
 }

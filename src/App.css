@@ -11,3 +11,24 @@
 .text-gray-500{
   color: gray;
 }
+
+input{
+  margin-top: 20px;
+  display: block;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px
+}
+
+button{
+  margin-top: 20px;
+  /* display: block; */
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1{
+  margin-bottom: 0;
+}
